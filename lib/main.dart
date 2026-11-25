@@ -81,22 +81,22 @@ class HomePage extends StatelessWidget {
           ),
           //แคปชั่น
           Column(children: [
-            SizedBox(width: 0,height: 4,),
+            SizedBox(width: 0,height: 10,),
             Text("ณัฐิดา จิตนิยม",style: TextStyle(fontSize: 17,fontWeight: FontWeight.bold),),SizedBox(width: 0,height: 4,),
           ]
           ),
           Column(children: [
-            SizedBox(width: 0,height: 1,),
+            SizedBox(width: 0,height: 2,),
             Text("noroor",style: TextStyle(fontSize: 17,fontWeight: FontWeight.bold),),SizedBox(width: 0,height: 4),
           ]
           ),
+          //ปุ่มติดตามและข้อความ
           Row(
             children: [
               SizedBox(
                 width: 10,
                 height: 50,
               ),
-              //ปุ่มติดตามและข้อความ
               Expanded(
                   child: ElevatedButton(
                       onPressed: () => {},
